@@ -28,7 +28,7 @@ const MovieCast = () => {
           />
           <div>
             <p className={css.name}>{member.name}</p>
-            <p className={css.character}>as {member.character}</p>
+            <p className={css.character}>{member.character}</p>
           </div>
         </li>
       ))}

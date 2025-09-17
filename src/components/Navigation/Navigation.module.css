@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  gap: 24px;
+  padding: 16px 32px;
+  background: #282c34;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+.nav a:hover {
+  color: #61dafb;
+}
+.active {
+  font-weight: 700;
+  color: #61dafb;
+  text-decoration: underline;
+}

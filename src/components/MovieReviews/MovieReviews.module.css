@@ -1,20 +1,21 @@
 .list {
   list-style: none;
   padding: 0;
-  margin-top: 24px;
+  margin-top: 12px;
 }
 .item {
-  margin-bottom: 24px;
-  padding-bottom: 18px;
-  border-bottom: 1px solid #ddd;
+  margin-bottom: 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #eee;
 }
 .author {
-  margin: 0 0 8px 0;
   font-weight: 700;
-  font-size: 1.1rem;
 }
 .content {
-  margin: 0;
-  color: #444;
-  line-height: 1.6;
+  margin-top: 8px;
+  color: #333;
+}
+.noReviews {
+  margin-top: 12px;
+  color: #666;
 }

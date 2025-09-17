@@ -11,7 +11,8 @@ const MovieCast = () => {
     getMovieCast(movieId).then(setCast).catch(console.error);
   }, [movieId]);
 
-  if (!cast.length) return <p>No cast information available.</p>;
+  if (!cast.length)
+    return <p className={css.noReviews}>No cast information available.</p>;
 
   return (
     <ul className={css.list}>
@@ -28,7 +29,7 @@ const MovieCast = () => {
           />
           <div>
             <p className={css.name}>{member.name}</p>
-            <p className={css.character}>{member.character}</p>
+            <p className={css.character}>Character: {member.character}</p>
           </div>
         </li>
       ))}
